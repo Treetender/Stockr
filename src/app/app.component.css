@@ -1,0 +1,11 @@
+.example-spacer {
+    flex: 1 1;
+  }
+
+.menu-button {
+    position: relative; left: 0;
+}
+
+.settings-button {
+    position: relative; right: 0;
+}
