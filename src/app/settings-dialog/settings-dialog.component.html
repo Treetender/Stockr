@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Settings</h1>
+<div mat-dialog-content>
+  <section>
+      <mat-checkbox [(ngModel)]="darkMode">Enable Dark Theme</mat-checkbox>  
+  </section>
+  <section>
+      <mat-checkbox [(ngModel)]="hideSideBar">Hide Side Bar</mat-checkbox>
+  </section>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()" [mat-dialog-close]="false">Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Ok</button>
+</div>
